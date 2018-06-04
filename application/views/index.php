@@ -30,7 +30,7 @@
                                 <div class="feature-text box-shadow text-center mb-30 white-bg">
                                     <div class="feature-icon" style="margin-bottom:5px;">
                                         <a href="<?php echo base_url();?>index.php/AudioVideo/VideoLive/<?php echo $row->file_id; ?>">
-                                            <img class="img-fluid mx-auto" style="height:200px; width:100%;" src="_images/lectur/lecturer/<?php echo $row->lecturer_img ?>" alt=""> 
+                                            <img class="img-fluid mx-auto" style="height:200px; width:100%;" src="<?php echo base_url(); ?>_images/lectur/lecturer/<?php echo $row->lecturer_img ?>" alt=""> 
                                         </a>
                                     </div>
                                     <div class="fature-info" style="height:80px;"> 
@@ -75,7 +75,7 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-12 xs-mb-30">
                             <div class="card border-0 black-bg o-hidden h-100">
-                                <img class="img-fluid" src="images/about/02.jpg" alt="">
+                                <img class="img-fluid" src="<?php echo base_url(); ?>images/about/02.jpg" alt="">
                                 <div class="p-4">
                                     <h4> <a href="#" class="text-white"> Audio </a></h4>
                                     <p class="mb-0 pb-0 text-white">I truly believe Augustine’s words are true.</p>
@@ -84,7 +84,7 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12 xs-mb-30">
                             <div class="card border-0 black-bg o-hidden h-100">
-                                <img class="img-fluid" src="images/about/03.jpg" alt="">
+                                <img class="img-fluid" src="<?php echo base_url(); ?>images/about/03.jpg" alt="">
                                 <div class="p-4">
                                     <h4> <a href="#" class="text-white">Video</a></h4>          
                                     <p class="mb-0 pb-0 text-white">We also know those epic stories, those modern-day.</p>
@@ -93,7 +93,7 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12 xs-mb-30">
                             <div class="card border-0 black-bg o-hidden h-100">
-                                <img class="img-fluid" src="images/about/01.jpg" alt="">
+                                <img class="img-fluid" src="<?php echo base_url(); ?>images/about/01.jpg" alt="">
                                 <div class="p-4">
                                     <h4> <a href="#" class="text-white">  Article </a></h4>         
                                     <p class="mb-0 pb-0 text-white">Let's make something great together</p>
@@ -102,7 +102,7 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12 xs-mb-30">
                             <div class="card border-0 black-bg o-hidden h-100">
-                                <img class="img-fluid" src="images/blog/big/03.jpg" alt="">
+                                <img class="img-fluid" src="<?php echo base_url(); ?>images/blog/big/03.jpg" alt="">
                                 <div class="p-4">
                                     <h4> <a href="#" class="text-white"> Event </a></h4>         
                                     <p class="mb-0 pb-0 text-white">Save Yourself Time By Using Webster</p>
@@ -179,7 +179,7 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-12 xs-mb-30">
                             <div class="card border-0 black-bg o-hidden h-100">
-                                <img class="img-fluid" src="images/about/02.jpg" alt="">
+                                <img class="img-fluid" src="<?php echo base_url(); ?>images/about/02.jpg" alt="">
                                 <div class="p-4">
                                     <h4> <a href="#" class="text-white"> Books </a></h4>
                                     <p class="mb-0 pb-0 text-white">I truly believe Augustine’s words are true.</p>
@@ -188,7 +188,7 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12 xs-mb-30">
                             <div class="card border-0 black-bg o-hidden h-100">
-                                <img class="img-fluid" src="images/about/03.jpg" alt="">
+                                <img class="img-fluid" src="<?php echo base_url(); ?>images/about/03.jpg" alt="">
                                 <div class="p-4">
                                     <h4> <a href="#" class="text-white">Islamic Product</a></h4>          
                                     <p class="mb-0 pb-0 text-white">We also know those epic stories, those modern-day.</p>
@@ -197,7 +197,7 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12 xs-mb-30">
                             <div class="card border-0 black-bg o-hidden h-100">
-                                <img class="img-fluid" src="images/about/01.jpg" alt="">
+                                <img class="img-fluid" src="<?php echo base_url(); ?>images/about/01.jpg" alt="">
                                 <div class="p-4">
                                     <h4> <a href="#" class="text-white">  QA Section </a></h4>         
                                     <p class="mb-0 pb-0 text-white">Let's make something great together</p>
@@ -206,7 +206,7 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12 xs-mb-30">
                             <div class="card border-0 black-bg o-hidden h-100">
-                                <img class="img-fluid" src="images/blog/big/03.jpg" alt="">
+                                <img class="img-fluid" src="<?php echo base_url(); ?>images/blog/big/03.jpg" alt="">
                                 <div class="p-4">
                                     <h4> <a href="#" class="text-white"> Event </a></h4>         
                                     <p class="mb-0 pb-0 text-white">Save Yourself Time By Using Webster</p>

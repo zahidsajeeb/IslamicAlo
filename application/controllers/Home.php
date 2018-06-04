@@ -23,5 +23,28 @@ class Home extends CI_Controller {
         $data['result7'] = $this->Home_Model->GetHadisBooks();
         $this->load->view('index', $data);
     }
+    
+    public function subscription(){
+        $this->load->model('Home_Model');
+        $email = $this->input->post('email');
+        $this->Home_Model->email_subscrtiption($email);
+        redirect('Home/index');
+    }
+    
+//    public function checkUsername() {
+//        $this->load->model('Home_Model');
+//        if ($this->Home_Model->getUsername($_POST['email'])) {
+//            echo '<label class="text-danger"><span><i class="fa fa-times" aria-hidden="true"></i> This user is already registered</span></label>';
+//        } else {
+//            echo '<label class="text-success"><span><i class="fa fa-check-circle-o" aria-hidden="true"></i> Username is available</span></label>';
+//        }
+//    }
+    
+    
+        public function checkUsername() {
+        $this->load->model('Home_Model');
+        $this->Home_Model->getUsername($_POST['email']);
+        
+    }
 
 }

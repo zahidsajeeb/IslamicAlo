@@ -94,5 +94,41 @@ class Home_Model extends CI_Model {
         $query = $this->db->get();
         return $query->result(); 
     }
+    
+    public function email_subscrtiption($email) {
+        $sql = "INSERT INTO subscription(sub_email)VALUES('$email')";
+        $query = $this->db->query($sql);
+    }
+
+    public function getUsername($username) {
+        $this->db->where('sub_email', $username);
+        $query = $this->db->get('subscription');
+
+//        if ($query->num_rows() > 0) {
+//            return true;
+//        } else {
+//            return false;
+//        }
+        
+        if ($query->num_rows() > 0) {
+            echo "<font style='margin:10px;color: #B70404;'>Already Exists, Please Enter New E-Mail....</font>";
+        } else {
+            echo "Please proceed...";
+        }
+        
+    }
+    
+    
+    
+
+//$cs = $_POST['course_syllabus'];
+//$sql = "SELECT * FROM form where course_syllabus = '$cs' and ins_id='23989'";
+//$result = mysql_query($sql);
+//$num_rows = mysql_num_rows($result);
+//if ($num_rows > 0) {
+//echo "<font style='margin:10px;color: #B70404;'>Already Exists, Select Again.</font>";
+//} else {
+//echo "Please proceed...";
+//}
 
 }
