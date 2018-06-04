@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'SolaimanLipiNormal';
+  src: url('../fonts/SolaimanLipiNormal.eot');
+  src: url('../fonts/SolaimanLipiNormal.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/SolaimanLipiNormal.woff2') format('woff2'),
+       url('../fonts/SolaimanLipiNormal.woff') format('woff'),
+       url('../fonts/SolaimanLipiNormal.ttf') format('truetype'),
+       url('../fonts/SolaimanLipiNormal.svg#SolaimanLipiNormal') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+ * {
+        font-family: SolaimanLipiNormal, Nikosh2, SolaimanLipi, Nikosh, NikoshBAN, Georgia, sans-serif !important;
+        -webkit-text-stroke: 0.2px;
+
+}
+
+.arabic
+{
+font-size: 20pt;
+line-height: 1.2em;
+font-family: 'Traditional Arabic', 'Arabic Typesetting' !important;
+word-spacing: 2px;
+color: #505050;
+margin-top: 20px;
+margin-bottom: 20px;
+-webkit-font-smoothing: antialiased !important;
+text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+text-align: center;
+direction:rtl;
+}
+
+
+
+
+@charset "utf-8";
+@font-face {
+    font-family: "SolaimanLipi";
+    src: url("./SolaimanLipi.ttf?v=1") format("opentype");
+}
+html,body{
+	font-size:14px;
+	background:#f0f0ed;
+	color:#333333;
+	cursor:default;
+	line-height:24px;
+	min-height:100%;
+	width:100%;
+	position:absolute;
+	}
+body{
+	overflow-x:hidden;
+	font-family:SolaimanLipi;
+	font-size:16px;
+	}
+
+
+
+@font-face {
+	font-family: 'TonnyBanglaMJ';
+	src: url('/f/tonny_ie6.eot');
+	src: url('/f/tonny_ie6.eot#iefix') format('embedded-opentype'), url('/f/TonnyBanglaMJ.woff') format('woff'), url('/f/TonnyBanglaMJ.ttf') format('truetype'), url('/f/TonnyBanglaMJ.svg') format('svg');
+	src: local(TonnyBanglaMJ), url('/f/TonnyBanglaMJ.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
